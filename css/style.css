@@ -90,6 +90,7 @@ footer.page-footer {
 }
 
 .align {
+bottom: 3px;
 font-size: 14px;
-  vertical-align: middle;
+vertical-align: middle;
 }
