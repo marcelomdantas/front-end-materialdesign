@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <link rel="shortcut icon" href="images/favicon.png">
+  <title>Nova Conta Fincar</title>
+
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  
+
+</head>
+<body>
+  <nav class="green lighten-1" role="navigation">
+    <div class="nav-wrapper container">
+      <a id="logo-container" href="index.html" class="brand-logo"><img src="images/Logo_Fincar.svg" height=25px; alt="Sistema Fincar"></a>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="login.html">Login</a></li>
+      </ul>
+      <ul id="nav-mobile" class="sidenav">
+        <li><a href="login.html">Login</a></li>       
+      </ul>
+      <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+    </div>
+  </nav>
+
+  <div class="row center">
+    <br /> 
+      <div row="center" class="container">
+          
+            <br />
+        <div class="row">                
+            <form class="col s11">
+              <div class="row">
+                     <div class="input-field col s6">
+                            <input placeholder="000.000.000-00" id="first_name" type="text" class="validate">
+                            <label for="first_name">CPF</label>
+                     </div>
+                     <div class="input-field col s6">
+                            <input placeholder="(00) 00000-0000" id="first_name" type="number" class="validate">
+                            <label for="celular">Telefone Celular</label>
+                     </div>
+                     <div class="input-field col s6">
+                            <input id="last_name" type="text" class="validate">
+                            <label for="last_name">Nome</label>
+                     </div>
+                     <div class="input-field col s6">
+                            <input id="email" type="email" class="validate">
+                            <label for="email">Email</label>
+                     </div>       
+                     <div class="input-field col s12">
+                            <input id="last_name" type="text" class="validate">
+                            <label for="last_name">Endereço</label>
+                     </div>
+                     <div class="input-field col s6">
+                            <input id="last_name" type="text" class="validate">
+                            <label for="last_name">Cidade</label>
+                     </div>
+                     <div class="input-field col s2">
+                            <input id="last_name" type="text" class="validate">
+                            <label for="last_name">UF</label>
+                     </div>                
+              </div>
+              <div class="row">
+                     <div class="input-field col s6">
+                            <input id="password" type="password" class="validate">
+                            <label for="password">Senha</label>
+                    </div>              
+              </div>
+                    <div class="row">
+                     <div class="input-field col s6">
+                            <input id="password" type="password" class="validate">
+                            <label for="password">Confirmar Senha</label>
+                     </div>              
+                    </div>
+                  
+      <h5 class="green-text">Dados Bancários</h5>
+              <div class="row">
+                      <div class="col s12">
+                        <div class="row">
+                          <div class="input-field col s12">
+                            <input type="text" id="autocomplete-input" class="autocomplete">
+                            <label for="autocomplete-input">Banco</label>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="input-field col s6">
+                              <input id="agencia" type="text" class="validate">
+                              <label for="agencia">Agência</label>
+                        </div>
+                      <div class="input-field col s6">
+                              <input id="conta" type="text" class="validate">
+                              <label for="conta">Conta</label>
+                            </div>                 
+                    </div> 
+              <br />
+              
+              <div class="row">
+                     
+                      <div class="align">
+                          <label>
+                              <input type="checkbox" class="filled-in" checked="checked" />
+                              <span>&rarr;</span>
+                            </label>
+                        <a class="green-text waves-effect waves-light modal-trigger align" href="#modal1"><p>Por favor, leia os termos do serviço.</p></a><br /><br />
+                      </div>                      
+                     
+                      <a href="login.html" id="download-button" class="btn-large waves-effect waves-light green lighten-1">Criar Conta</a>
+              </div>            
+              
+            </form>
+          </div>
+      </div>    
+              
+</div>
+
+  <!-- Modal Structure -->
+  <div id="modal1" class="modal modal-fixed-footer">
+    <div class="modal-content">
+      <h4>Termos de Uso</h4>
+      <p>Ao contrário do que se acredita, Lorem Ipsum não é simplesmente um texto randômico. Com mais de 2000 anos, suas raízes podem
+        ser encontradas em uma obra de literatura latina clássica datada de 45 AC. Richard McClintock, um professor de latim do Hampden-Sydney 
+        College na Virginia, pesquisou uma das mais obscuras palavras em latim, consectetur, oriunda de uma passagem de Lorem Ipsum, e, procurando
+         por entre citações da palavra na literatura clássica, descobriu a sua indubitável origem. Lorem Ipsum vem das seções 1.10.32 e 1.10.33 do 
+         "de Finibus Bonorum et Malorum" (Os Extremos do Bem e do Mal), de Cícero, escrito em 45 AC. Este livro é um tratado de teoria da ética mui
+         to popular na época da Renascença. A primeira linha de Lorem Ipsum, "Lorem Ipsum dolor sit amet..." vem de uma linha na seção 1.10.32.o co
+         trário do que se acredita, Lorem Ipsum não é simplesmente um texto randômico. Com mais de 2000 anos, suas raízes podem ser encontradas em 
+         uma obra de literatura latina clássica datada de 45 AC. Richard McClintock, um professor de latim do Hampden-Sydney College na Virginia, 
+         pesquisou uma das mais obscuras palavras em latim, consectetur, oriunda de uma passagem de Lorem Ipsum, e, procurando por entre citações da 
+         palavra na literatura clássica, descobriu a sua indubitável origem. Lorem Ipsum vem das seções 1.10.32 e 1.10.33 do "de Finibus Bonorum et 
+         Malorum" (Os Extremos do Bem e do Mal), de Cícero, escrito em 45 AC. Este livro é um tratado de teoria da ética muito popular na época da Renascença. 
+         A primeira linha de Lorem Ipsum, "Lorem Ipsum dolor sit amet..." vem de uma linha na seção 1.10.32.o contrário do que se acredita, 
+         Lorem Ipsum não é simplesmente um texto randômico. Com mais de 2000 anos, suas raízes podem ser encontradas em uma obra de literatura latina 
+         clássica datada de 45 AC. Richard McClintock, um professor de latim do Hampden-Sydney College na Virginia, pesquisou uma das mais obscuras 
+         palavras em latim, consectetur, oriunda de uma passagem de Lorem Ipsum, e, procurando por entre citações da palavra na literatura clássica, 
+         descobriu a sua indubitável origem. Lorem Ipsum vem das seções 1.10.32 e 1.10.33 do "de Finibus Bonorum et Malorum" (Os Extremos do Bem e do Mal), 
+         de Cícero, escrito em 45 AC. Este livro é um tratado de teoria da ética muito popular na época da Renascença. A primeira linha de Lorem Ipsum, 
+         "Lorem Ipsum dolor sit amet..." vem de uma linha na seção 1.10.32.o contrário do que se acredita, Lorem Ipsum não é simplesmente um texto randômico. 
+         Com mais de 2000 anos, suas raízes podem ser encontradas em uma obra de literatura latina clássica datada de 45 AC. Richard McClintock, 
+         um professor de latim do Hampden-Sydney College na Virginia, pesquisou uma das mais obscuras palavras em latim, consectetur, oriunda de uma 
+         passagem de Lorem Ipsum, e, procurando por entre citações da palavra na literatura clássica, descobriu a sua indubitável origem. 
+         Lorem Ipsum vem das seções 1.10.32 e 1.10.33 do "de Finibus Bonorum et Malorum" (Os Extremos do Bem e do Mal), de Cícero, escrito em 45 AC. 
+         Este livro é um tratado de teoria da ética muito popular na época da Renascença. A primeira linha de Lorem Ipsum, "Lorem Ipsum dolor sit 
+         amet..." vem de uma linha na seção 1.10.32.o contrário do que se acredita, Lorem Ipsum não é simplesmente um texto randômico. 
+         Com mais de 2000 anos, suas raízes podem ser encontradas em uma obra de literatura latina clássica datada de 45 AC. Richard McClintock, 
+         um professor de latim do Hampden-Sydney College na Virginia, pesquisou uma das mais obscuras palavras em latim, consectetur, oriunda de 
+         uma passagem de Lorem Ipsum, e, procurando por entre citações da palavra na literatura clássica, descobriu a sua indubitável origem. 
+         Lorem Ipsum vem das seções 1.10.32 e 1.10.33 do "de Finibus Bonorum et Malorum" (Os Extremos do Bem e do Mal), de Cícero, escrito em 45 AC. 
+         Este livro é um tratado de teoria da ética muito popular na época da Renascença. A primeira linha de Lorem Ipsum, "Lorem Ipsum dolor sit 
+         amet..." vem de uma linha na seção 1.10.32.o contrário do que se acredita, Lorem Ipsum não é simplesmente um texto randômico. Com mais de 
+         2000 anos, suas raízes podem ser encontradas em uma obra de literatura latina clássica datada de 45 AC. Richard McClintock, um professor de 
+         latim do Hampden-Sydney College na Virginia, pesquisou uma das mais obscuras palavras em latim, consectetur, oriunda de uma passagem de 
+         Lorem Ipsum, e, procurando por entre citações da palavra na literatura clássica, descobriu a sua indubitável origem. Lorem Ipsum vem das 
+         seções 1.10.32 e 1.10.33 do "de Finibus Bonorum et Malorum" (Os Extremos do Bem e do Mal), de Cícero, escrito em 45 AC. Este livro é um 
+         tratado de teoria da ética muito popular na época da Renascença. A primeira linha de Lorem Ipsum, "Lorem Ipsum dolor sit amet..." vem de 
+         uma linha na seção 1.10.32.o contrário do que se acredita, Lorem Ipsum não é simplesmente um texto randômico. Com mais de 2000 anos, suas 
+         raízes podem ser encontradas em uma obra de literatura latina clássica datada de 45 AC. Richard McClintock, um professor de latim do Hampden-Sydney 
+         College na Virginia, pesquisou uma das mais obscuras palavras em latim, consectetur, oriunda de uma passagem de Lorem Ipsum, e, procurando por 
+         entre citações da palavra na literatura clássica, descobriu a sua indubitável origem. Lorem Ipsum vem das seções 1.10.32 e 1.10.33 do "de Finibus 
+         Bonorum et Malorum" (Os Extremos do Bem e do Mal), de Cícero, escrito em 45 AC. Este livro é um tratado de teoria da ética muito popular na 
+         época da Renascença. A primeira linha de Lorem Ipsum, "Lorem Ipsum dolor sit amet..." vem de uma linha na seção 1.10.32.o contrário do que 
+         se acredita, Lorem Ipsum não é simplesmente um texto randômico. Com mais de 2000 anos, suas raízes podem ser encontradas em uma obra de literatura 
+         latina clássica datada de 45 AC. Richard McClintock, um professor de latim do Hampden-Sydney College na Virginia, pesquisou uma das mais obscuras 
+         palavras em latim, consectetur, oriunda de uma passagem de Lorem Ipsum, e, procurando por entre citações da palavra na literatura clássica, 
+         descobriu a sua indubitável origem. Lorem Ipsum vem das seções 1.10.32 e 1.10.33 do "de Finibus Bonorum et Malorum" (Os Extremos do Bem e do 
+         Mal), de Cícero, escrito em 45 AC. Este livro é um tratado de teoria da ética muito popular na época da Renascença. A primeira linha de Lorem 
+         Ipsum, "Lorem Ipsum dolor sit amet..." vem de uma linha na seção 1.10.32.o contrário do que se acredita, Lorem Ipsum não é simplesmente um 
+         texto randômico. Com mais de 2000 anos, suas raízes podem ser encontradas em uma obra de literatura latina clássica datada de 45 AC. Richard 
+         McClintock, um professor de latim do Hampden-Sydney College na Virginia, pesquisou uma das mais obscuras palavras em latim, consectetur, oriunda 
+         de uma passagem de Lorem Ipsum, e, procurando por entre citações da palavra na literatura clássica, descobriu a sua indubitável origem. Lorem 
+         Ipsum vem das seções 1.10.32 e 1.10.33 do "de Finibus Bonorum et Malorum" (Os Extremos do Bem e do Mal), de Cícero, escrito em 45 AC. Este livro 
+         é um tratado de teoria da ética muito popular na época da Renascença. A primeira linha de Lorem Ipsum, "Lorem Ipsum dolor sit amet..." vem de uma 
+         linha na seção 1.10.32.o contrário do que se acredita, Lorem Ipsum não é simplesmente um texto randômico. Com mais de 2000 anos, suas raízes 
+         podem ser encontradas em uma obra de literatura latina clássica datada de 45 AC. Richard McClintock, um professor de latim do Hampden-Sydney C
+         ollege na Virginia, pesquisou uma das mais obscuras palavras em latim, consectetur, oriunda de uma passagem de Lorem Ipsum, e, procurando por 
+         entre citações da palavra na literatura clássica, descobriu a sua indubitável origem. Lorem Ipsum vem das seções 1.10.32 e 1.10.33 do "de Finibus 
+         Bonorum et Malorum" (Os Extremos do Bem e do Mal), de Cícero, escrito em 45 AC. Este livro é um tratado de teoria da ética muito popular na época 
+         da Renascença. A primeira linha de Lorem Ipsum, "Lorem Ipsum dolor sit amet..." vem de uma linha na seção 1.10.32.o contrário do que se acredita, 
+         Lorem Ipsum não é simplesmente um texto randômico. Com mais de 2000 anos, suas raízes podem ser encontradas em uma obra de literatura latina clássica 
+         datada de 45 AC. Richard McClintock, um professor de latim do Hampden-Sydney College na Virginia, pesquisou uma das mais obscuras palavras em latim, 
+         consectetur, oriunda de uma passagem de Lorem Ipsum, e, procurando por entre citações da palavra na literatura clássica, descobriu a sua indubitável 
+         origem. Lorem Ipsum vem das seções 1.10.32 e 1.10.33 do "de Finibus Bonorum et Malorum" (Os Extremos do Bem e do Mal), de Cícero, escrito em 45 AC. 
+         Este livro é um tratado de teoria da ética muito popular na época da Renascença. A primeira linha de Lorem Ipsum, "Lorem Ipsum dolor sit amet..." 
+         vem de uma linha na seção 1.10.32.
+         </p>
+    </div>
+    <div class="modal-footer">
+      <a href="#!" class="modal-close waves-effect waves-green btn-flat">ACEITAR</a>
+      <a href="#!" class="modal-close waves-effect waves-green btn-flat">CANCELAR</a>
+    </div>
+  </div>
+  
+  <footer class="page-footer green lighten-1">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text"><img src="images/Logo_Fincar.svg" height=25px; alt="Sistema Balconfy"></h5>
+          <p class="grey-text text-lighten-4">Plataforma balcão para financiamento auto.</p>
+
+
+        </div>
+        <div class="col l3 s12">
+          <h5 class="white-text"></h5>
+          <ul>
+            <li><a class="white-text" href="#!"></a></li>
+            <li><a class="white-text" href="#!"></a></li>
+            <li><a class="white-text" href="#!"></a></li>
+          </ul>
+        </div>
+        <div class="col l3 s12">
+          <h5 class="white-text">Empresa</h5>
+          <ul>
+            <li><a class="white-text" href="fincar.html">Sobre</a></li>
+            <li><a class="white-text" href="privacidade.html">Política de privacidade</a></li>
+            <li><a class="white-text" href="termos.html">Termos de Uso</a></li>
+            
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+        Desenvolvido por <a class="white-text" href="https://www.moraesdesign.com">Marcelo Moraes</a>
+        </div>
+    </div>
+  </footer>
+
+
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
+  <script src="js/form.js"></script>
+
+  </body>
+</html>
